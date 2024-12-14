@@ -20,16 +20,21 @@ Splashscreen
 ![Splashscreen](https://i.imgur.com/jsa17Ff.png)
 
 Login/registration forms
-![login](https://i.imgur.com/lYGtNCR.png)![registration](https://i.imgur.com/f7wAxhC.png)
+![login](https://i.imgur.com/lYGtNCR.png)
+![registration](https://i.imgur.com/f7wAxhC.png)
 
 Main marketplace page, listing page
-![main page](https://i.imgur.com/vysA0wW.png)![listing page](https://i.imgur.com/G6ahC3r.png)
+![main page](https://i.imgur.com/vysA0wW.png)
+![listing page](https://i.imgur.com/G6ahC3r.png)
 
 Adding items, profile page
-![adding items](https://i.imgur.com/kN1UN5p.png) ![profile page](https://i.imgur.com/HH3zlVC.png)
+![adding items](https://i.imgur.com/kN1UN5p.png)
+![profile page](https://i.imgur.com/HH3zlVC.png)
 
 Support channel page, support channel
-![support channel page](https://i.imgur.com/yEfitQz.png)![support channel](https://i.imgur.com/HvgpD0r.png) 
+![support channel page](https://i.imgur.com/yEfitQz.png)
+![support channel](https://i.imgur.com/HvgpD0r.png) 
 
 Dummy payment page
-![payment page](https://i.imgur.com/d4SPdG1.png)![dummy payment success](https://i.imgur.com/jDkftRI.png)
+![payment page](https://i.imgur.com/d4SPdG1.png)
+![dummy payment success](https://i.imgur.com/jDkftRI.png)
