@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name" translatable="false">MMarket</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="go_to_login">Go to Login</string>
+    <string name="sign_up_now">Create an account</string>
+    <string name="return_to_login">Return to Login</string>
+    <string name="log_out">Log out</string>
+    <string name="account">Account</string>
+    <string name="chat">Chat</string>
+    <string name="home">Home</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="fragment_placeholder_1">Log out of your account</string>
+    <string name="fragment_placeholder_2" translatable="false">Fragment Placeholder 2</string>
+    <string name="password_must_contain_at_least_6_characters">Password must contain at least 6 characters</string>
+    <string name="user">User</string>
+    <string name="test_item" translatable="false">Test item</string>
+    <string name="dodajWarnFix" translatable="false">dodaj</string>
+    <string name="add_an_item_for_sale">Add an item for sale</string>
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
+    <string name="open_support_channel">Open support channel</string>
+    <string name="assistance">Assistance</string>
+    <string name="support_text">Share your thoughts and concerns in our live open support channel. Our agents will be responding with your inquiries as soon as they are available to process your requests.</string>
+    <string name="change_password">Change password</string>
+    <string name="change">Change</string>
+    <string name="username">Username</string>
+    <string name="enter_message">Enter message</string>
+    <string name="send_button" translatable="false">send button</string>
+    <string name="back_arrow" translatable="false">back arrow</string>
+    <string name="item_title">Item title</string>
+    <string name="item_description">Item description</string>
+    <string name="mmarket_assistant" translatable="false">MMarket Helper</string>
+    <string name="welcome_user_placeholder">Welcome,</string>
+    <string name="account_photo" translatable="false">account photo</string>
+    <string name="test_value" translatable="false">55.55$</string>
+    <string name="delete_item" translatable="false">delete item</string>
+    <string name="delete_your_account">Delete your account</string>
+    <string name="price">Price</string>
+    <string name="search">Search</string>
+    <string name="cancel_button">cancel button</string>
+    <string name="seller">Seller</string>
+    <string name="shop_item_name">Shop item name</string>
+    <string name="shop_item_name1">Shop item name</string>
+    <string name="shop_item_description">Shop item description</string>
+    <string name="price2" translatable="false">55.55$</string>
+    <string name="buy">Buy</string>
+    <string name="item_being_sold_by">Item being sold by</string>
+    <string name="enter_your_payment_information">Enter your payment information</string>
+    <string name="card_holder_name">Card holder name</string>
+    <string name="card_number">Card number</string>
+    <string name="cardholder_address">Cardholder address</string>
+    <string name="cvc" translatable="false">CVC</string>
+    <string name="expiration_date">Expiration date</string>
+    <string name="purchase">Purchase</string>
+    <string name="purchase_completed">Order sent</string>
+    <string name="select_language">Select language</string>
+</resources>

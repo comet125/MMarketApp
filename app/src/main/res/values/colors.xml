@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="hint">#006d75</color>
+    <color name="red">#ff6140</color>
+    <color name="materialPlavaFix">#d8bcfc</color>
+    <color name="materialTmina">#211f26</color>
+</resources>

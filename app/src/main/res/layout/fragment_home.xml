@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".View.Fragment.HomeFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/item_search"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="110dp"
+            android:hint="@string/search"/>
+
+        <ImageView
+            android:id="@+id/accIcon"
+            android:visibility="visible"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="18dp"
+            android:src="@drawable/account"
+            app:tint="@color/white"
+            android:contentDescription="@string/account_photo"/>
+
+
+        <TextView
+            android:id="@+id/welcome_text"
+            android:visibility="visible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_user_placeholder"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="25dp"/>
+
+        <ImageView
+            android:id="@+id/search_toggle"
+            android:visibility="visible"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="21dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/search_btn" />
+
+        <ImageView
+            android:id="@+id/search_cancel"
+            android:visibility="gone"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="21dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/close_icon"
+            app:tint="@color/white" />
+
+        <ImageView
+            android:id="@+id/search_go"
+            android:visibility="gone"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="21dp"
+            android:layout_marginEnd="64dp"
+            android:src="@drawable/send_vector"
+            app:tint="@color/materialPlavaFix" />
+
+    </FrameLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        tools:listitem="@layout/list_item"/>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="0dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/materialPlavaFix"
+        android:textColor="@color/black"
+        android:text="ADD"
+        app:shapeAppearanceOverlay="@style/customNormalFAB"
+        android:src="@drawable/add_icon"
+        android:contentDescription="@string/dodajWarnFix" />
+
+</FrameLayout>

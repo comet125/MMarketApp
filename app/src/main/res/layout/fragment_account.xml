@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.Fragment.AccountFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/profile_picture"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="top"
+            android:padding="15dp"/>
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/language_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:textAlignment="center"
+        android:text="@string/select_language" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginBottom="100dp"
+        android:text="@string/fragment_placeholder_1" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:id="@+id/change_pw"
+        android:text="@string/change"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        android:text="@string/change_password" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_gravity="center"
+        android:id="@+id/logout"
+        android:text="@string/log_out"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="70dp"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:text="@string/delete_your_account" />
+
+    <Button
+        android:id="@+id/delete_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_gravity="bottom | center"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/red"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="@string/delete"/>
+
+</FrameLayout>
