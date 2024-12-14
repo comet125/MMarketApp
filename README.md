@@ -8,6 +8,7 @@ MMarket is a realtime Firebase marketplace application for Android with support 
 - Publishing a listing to the store page with a description & price
 - Removal of listings
 - Purchase fragment (dummy placeholder)
+- Support for multiple languages
 - Support channel all users have access to; ability to send and delete own messages
 - Admin login with the ability to delete any listing and provide support in the support channel
 - Admin has the ability to delete any message in the group chat
